@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #00f0ff;
+    overflow: hidden;
+}
+
+/* Weather App Container */
+.weather-app {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.7);
+}
+
+/* Title */
+.app-title {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #00f0ff;
+    text-shadow: 0 0 10px rgba(0, 240, 255, 0.8);
+}
+
+/* Location Input */
+.location-input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #00f0ff;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 240, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.location-input:focus {
+    box-shadow: 0 0 10px rgba(0, 240, 255, 0.8);
+    outline: none;
+}
+
+/* Get Weather Button */
+.weather-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #00f0ff;
+    color: #1a1a1d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.8);
+}
+
+.weather-btn:hover {
+    transform: scale(1.05);
+    background-color: #00c0ff;
+}
+
+/* Weather Display */
+.weather-display {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #00f0ff;
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.8);
+    font-size: 1rem;
+    display: none;
+    transition: all 0.5s ease;
+}
